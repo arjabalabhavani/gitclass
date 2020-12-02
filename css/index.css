@@ -19,21 +19,23 @@ body {
 .rd {
     border: none;
 }
- .init-coi{
-        position: relative;
-    }
-    .text-on-image{
-        position: absolute;
-        width: 100%;
-        height: 100%;
-        left: 0;
-        top: 0;
-    }
 
-@media (min-width: 992px)
-{
-.navbar-brand img
-{
+.init-coi {
+    position: relative;
+}
+
+.text-on-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.navbar-brand img {
     max-width: 120px;
 }
+
+.for-title {
+    width: 68%;
 }
