@@ -39,3 +39,13 @@ body {
 .for-title {
     width: 68%;
 }
+.search-persons-form .first-formgroup{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    overflow: hidden;
+}
+.search-persons-form .last-formgroup{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    overflow: hidden;
+}
