@@ -49,3 +49,12 @@ body {
     border-bottom-right-radius: 6px;
     overflow: hidden;
 }
+.we-title h3, p{
+    color: #555353;
+}
+.couple img{
+    width: 200px;
+}
+.search-persons-form option{
+    font-size: 12px;
+}
