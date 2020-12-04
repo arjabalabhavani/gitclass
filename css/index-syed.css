@@ -1,0 +1,60 @@
+body {
+    padding: 0;
+    margin: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.gradient {
+    background: linear-gradient(to right, #ff9200, #febf54);
+}
+
+.six-col {
+    border-right: 1px solid gray;
+    width: 16.66%;
+}
+
+.rd {
+    border: none;
+}
+
+.init-coi {
+    position: relative;
+}
+
+.text-on-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.navbar-brand img {
+    max-width: 120px;
+}
+
+.for-title {
+    width: 68%;
+}
+.search-persons-form .first-formgroup{
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    overflow: hidden;
+}
+.search-persons-form .last-formgroup{
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    overflow: hidden;
+}
+.we-title h3, p{
+    color: #555353;
+}
+.couple img{
+    width: 200px;
+}
+.search-persons-form option{
+    font-size: 12px;
+}
