@@ -1,6 +1,7 @@
 body {
     padding: 0;
     margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 * {
@@ -39,22 +40,55 @@ body {
 .for-title {
     width: 68%;
 }
-.search-persons-form .first-formgroup{
+
+.search-persons-form .first-formgroup {
     border-top-left-radius: 6px;
     border-bottom-left-radius: 6px;
     overflow: hidden;
 }
-.search-persons-form .last-formgroup{
+
+.search-persons-form .last-formgroup {
     border-top-right-radius: 6px;
     border-bottom-right-radius: 6px;
     overflow: hidden;
 }
-.we-title h3, p{
+
+.we-title h3, p {
     color: #555353;
 }
-.couple img{
+
+.couple img {
     width: 200px;
 }
-.search-persons-form option{
+
+.couple-2 img {
+    width: 146px;
+}
+
+.search-persons-form option {
     font-size: 12px;
+}
+
+.text-and-img-section {
+    background: url(../images/chakra_right_bottom_quarter.png) left top no-repeat, url(../images/hang_flower-double.png) center top no-repeat, url(../images/chakra_left_top_quarter.png) right bottom no-repeat;
+}
+
+.container {
+    background: url(../images/hang_flower-single.png) right top no-repeat;
+}
+
+.ptb {
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.btn button {
+    border-radius: 3px;
+}
+
+.three-col-section {
+    background: url(../images/statistics_banner.jpg);
+}
+.img-text-col-container{
+    justify-content: space-evenly;
 }
