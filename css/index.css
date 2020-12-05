@@ -80,8 +80,8 @@ body {
 }
 
 .ptb {
-    padding-top: 100px;
-    padding-bottom: 100px;
+    padding-top: 136px;
+    padding-bottom: 136px;
 }
 
 .btn button {
@@ -98,5 +98,26 @@ body {
     background: url(../images/chakra_right_top_quarter.png) left bottom no-repeat, url(../images/hang_flower-single.png) right top no-repeat;
 }
 .profile-section{
-    background: #f2f2f2;
+    background: url(../images/chakra_right_bottom_quarter_white.png) no-repeat left top, url(../images/chakra_left_top_quarter_white.png) right bottom no-repeat, url(../images/hang_flower-tripple.png) right top no-repeat;
+    background-color: #f2f2f2;
+}
+.testimoninal-box-1 img{
+    width: 250px;
+    margin-right: -38px;
+    margin-left: -26px;
+    opacity: 0.5;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.testimoninal-box-1 .img-2{
+    width: 400px;
+    position: relative;
+    opacity: 1;
+}
+.name-name-section{
+    background: url(../images/chakra_top_half.png) no-repeat left bottom, url(../images/hang_flower-double.png) left top no-repeat, url(../images/chakra_left_bottom_quarter.png) right top no-repeat;
+}
+.ptb-1{
+    padding-top: 80px;
+    padding-bottom: 80px;
 }
