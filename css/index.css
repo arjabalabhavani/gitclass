@@ -136,3 +136,16 @@ body {
     font-size: 50px;
     color: #ff9200;
 }
+.bdr{
+    border: solid 1px #666;
+    border-radius: 4px;
+}
+.bdb{
+    border-bottom: solid 1px #666;
+}
+.lh{
+    line-height: 40px;
+}
+.user-section{
+    background: #f2f2f2;
+}
