@@ -53,24 +53,105 @@ body {
 }
 
 .couple-2 img {
-    width: 146px;
+    width: 200px;
 }
 
 .search-persons-form option {
     font-size: 12px;
 }
-.ptb {
-    padding-top: 136px;
-    padding-bottom: 136px;
-}
 
+.three-col-section {
+    background: url(../images/statistics_banner.jpg);
+}
 .btn button {
     border-radius: 3px;
 }
+
+.ptb-1 {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.w {
+    width: 400px;
+    border-radius: 20px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.3), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.First {
+    transform: scale(0.7);
+    margin-right: 16px;
+    opacity: 0.4;
+}
+
+.Second {
+    transform: scale(0.7);
+    margin-left: 16px;
+    opacity: 0.4;
+}
+
+.font {
+    font-size: 50px;
+    color: #ff9200;
+}
+
+.bdr {
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
+
+.bdb {
+    border-bottom: solid 1px #666;
+}
+
+.lh {
+    line-height: 40px;
+}
+
+.mb-img img{
+    width: 200px;
+    box-shadow: 0px 0px 2px 0px rgba(0, 0, 0, 0.3);
+    border-radius: 4px;
+}
 @media (min-width:992px){
+    
+.couple-2 img {
+    width: 146px;
+}
 
 .text-and-img-section {
     background: url(../images/chakra_right_bottom_quarter.png) left top no-repeat, url(../images/hang_flower-double.png) center top no-repeat, url(../images/chakra_left_top_quarter.png) right bottom no-repeat, url(../images/hang_flower-single.png) right top no-repeat;;
 }
 
+.text-and-img-section {
+    background: url(../images/chakra_right_bottom_quarter.png) left top no-repeat, url(../images/hang_flower-double.png) center top no-repeat, url(../images/chakra_left_top_quarter.png) right bottom no-repeat;
+}
+
+.flower-img {
+    background: url(../images/hang_flower-single.png) right top no-repeat;
+}
+.form-section {
+    background: url(../images/chakra_right_top_quarter.png) left bottom no-repeat, url(../images/hang_flower-single.png) right top no-repeat;
+}
+
+.profile-section {
+    background: url(../images/chakra_right_bottom_quarter_white.png) no-repeat left top, url(../images/chakra_left_top_quarter_white.png) right bottom no-repeat, url(../images/hang_flower-tripple.png) right top no-repeat;
+    background-color: #f2f2f2;
+}
+
+.name-name-section {
+    background: url(../images/chakra_top_half.png) no-repeat left bottom, url(../images/hang_flower-double.png) left top no-repeat, url(../images/chakra_left_bottom_quarter.png) right top no-repeat;
+}
+
+.user-section {
+    background: url(../images/hang_flower-double.png) no-repeat 10% top / auto 257px, url(../images/hang_flower-double.png) no-repeat 90% top / auto 257px, #f2f2f2;
+}
+.trs {
+    transform: scale(1.2);
+}
+
+.ptb {
+    padding-top: 136px;
+    padding-bottom: 136px;
+}
 }
