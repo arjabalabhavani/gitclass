@@ -1,0 +1,76 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.gradient {
+    background: linear-gradient(to right, #ff9200, #febf54);
+}
+
+.init-coi {
+    position: relative;
+}
+
+.text-on-image {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+}
+
+.navbar-brand img {
+    max-width: 120px;
+}
+
+.search-persons-form .first-formgroup {
+    border-top-left-radius: 6px;
+    border-bottom-left-radius: 6px;
+    overflow: hidden;
+}
+
+.search-persons-form .last-formgroup {
+    border-top-right-radius: 6px;
+    border-bottom-right-radius: 6px;
+    overflow: hidden;
+}
+
+.we-title h3, p {
+    color: #555353;
+}
+
+.clr {
+    color: #555353;
+}
+
+.couple img {
+    width: 200px;
+}
+
+.couple-2 img {
+    width: 146px;
+}
+
+.search-persons-form option {
+    font-size: 12px;
+}
+.ptb {
+    padding-top: 136px;
+    padding-bottom: 136px;
+}
+
+.btn button {
+    border-radius: 3px;
+}
+@media (min-width:992px){
+
+.text-and-img-section {
+    background: url(../images/chakra_right_bottom_quarter.png) left top no-repeat, url(../images/hang_flower-double.png) center top no-repeat, url(../images/chakra_left_top_quarter.png) right bottom no-repeat, url(../images/hang_flower-single.png) right top no-repeat;;
+}
+
+}
